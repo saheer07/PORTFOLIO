@@ -1,0 +1,53 @@
+body {
+    background: linear-gradient(120deg, black, aqua);
+    
+    
+}
+
+.about{
+    text-align: center;
+}
+/* General Section Styling */
+.about {
+     /* Dark background for the section */
+    padding-top: 5rem; /* Space above the section */
+    padding-bottom: 5rem; /* Space below the section */
+}
+
+/* Heading Styling */
+.about h1 {
+    font-size: 3rem; /* Heading size */
+    font-weight: 600; /* Font weight for the heading */
+    color: #fff; /* White color for the heading */
+}
+
+/* Paragraph Styling */
+.about p {
+    font-size: 1.1rem; /* Slightly larger text for readability */
+    line-height: 1.7; /* Line height for easy reading */
+    color: #fff; /* White text color for the paragraph */
+    font-weight: 100; /* Light font weight */
+}
+
+/* Centering and styling the text in the container */
+.about .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .col-md-8 {
+    max-width: 800px; /* Max width for better readability */
+    margin: 0 auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about h1 {
+        font-size: 2.5rem; /* Smaller heading size on mobile */
+    }
+
+    .about p {
+        font-size: 1rem; /* Smaller font size for better mobile experience */
+    }
+}
